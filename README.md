@@ -1,4 +1,4 @@
-# bootstrapMyPi - Bootstrap my Raspberry Pi using Terraform
+# Bootstrap my Raspberry Pi using Terraform
 
 ## What is it?
 
