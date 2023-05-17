@@ -9,7 +9,7 @@ The aim is to automate a bootstrap configuration for a headless system runnning 
 ## Pre-requisites
 
 * Terraform (v1.4 or newer)
-* A Raspberry Pi freshly flashed with the aarch64 flavor of Arch Linux (as described here [here](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3))
+* A Raspberry Pi freshly flashed with the aarch64 flavor of Arch Linux (as described [here](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3))
 
 Note: the deployment process relies on an SSH connection and expects the account and password to be the default ones of Arch Linux systems.
 
