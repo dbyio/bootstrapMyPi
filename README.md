@@ -37,7 +37,7 @@ timezone           = "Europe/Paris"
 terraform apply -var-file=newsystem.tfvars
 ```
 
-* ssh to the new user account (the )
+* ssh to the new user account
 ```
 ssh john@192.168.1.100
 ```
@@ -47,7 +47,7 @@ ssh john@192.168.1.100
 sudo shutdown -r +0
 ```
 
-* After reboot, ssh back to the new system and delete the default user 
+* After reboot, ssh back to the new system (using the target IP address) and delete the default user 
 ```
 ssh john@192.168.1.2
 sudo userdel -r alarm 
